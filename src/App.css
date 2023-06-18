@@ -4,3 +4,11 @@ div {
       left: 50%;
       transform: translate(-50%, -50%);
 }
+
+.multicolortext {
+      background-image: linear-gradient(to left,#E40303, #FF8C00, #FFED00, #008026, #24408E, #732982);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      color: transparent;
+}
